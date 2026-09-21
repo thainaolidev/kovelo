@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace YOUR_PRODUCTION_DOMAIN after connecting the final public domain. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR_PRODUCTION_DOMAIN/</loc></url>
+  <url><loc>https://YOUR_PRODUCTION_DOMAIN/servicos</loc></url>
+  <url><loc>https://YOUR_PRODUCTION_DOMAIN/projetos</loc></url>
+  <url><loc>https://YOUR_PRODUCTION_DOMAIN/contacto</loc></url>
+  <url><loc>https://YOUR_PRODUCTION_DOMAIN/en</loc></url>
+  <url><loc>https://YOUR_PRODUCTION_DOMAIN/en/services</loc></url>
+  <url><loc>https://YOUR_PRODUCTION_DOMAIN/en/projects</loc></url>
+  <url><loc>https://YOUR_PRODUCTION_DOMAIN/en/contact</loc></url>
+</urlset>
