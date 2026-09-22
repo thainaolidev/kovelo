@@ -1,18 +1,18 @@
 export type Locale = 'pt' | 'en'
 
 const sharedProjects = [
-  ['bianca-saboia', 'Bianca Saboia', 'Beauty', 'https://clinicabiancasaboia.vercel.app', 'rose'],
-  ['soulzen', 'Soulzen', 'Wellness', 'https://soulzen-three.vercel.app', 'sage'],
-  ['login-laser-tag', 'Login Laser Tag', 'Entertainment', 'https://loginlasertag.vercel.app', 'laser'],
-  ['hotel-umu', 'Hotel Umu', 'Hospitality', 'https://hotel-umu-demonstracao.vercel.app', 'gold'],
-  ['casa-da-alcacova', 'Casa da Alcáçova', 'Hospitality', 'https://casa-de-alcacova-demonstracao.vercel.app', 'stone'],
+  ['bianca-saboia', 'Bianca Saboia', 'Beauty', 'https://clinicabiancasaboia.vercel.app', 'rose', '/projects/bianca-saboia.png'],
+  ['soulzen', 'Soulzen', 'Wellness', 'https://soulzen-three.vercel.app', 'sage', '/projects/soulzen.png'],
+  ['login-laser-tag', 'Login Laser Tag', 'Entertainment', 'https://loginlasertag.vercel.app', 'laser', '/projects/login-laser-tag.png'],
+  ['hotel-umu', 'Hotel Umu', 'Hospitality', 'https://hotel-umu-demonstracao.vercel.app', 'gold', '/projects/hotel-umu.png'],
+  ['casa-da-alcacova', 'Casa da Alcáçova', 'Hospitality', 'https://casa-de-alcacova-demonstracao.vercel.app', 'stone', '/projects/casa-da-alcacova.png'],
 ]
 
 export const content = {
 pt: {
   seo:{title:'Kovelo Studio — Desenvolvimento Web & Experiências Digitais',description:'Kovelo Studio cria websites e experiências digitais à medida, combinando design, desenvolvimento, performance e tecnologia.'},
   nav:{home:'Início',services:'Serviços',projects:'Projetos',about:'Sobre nós',contact:'Contacto',start:'Começar um projeto',menu:'Abrir menu',language:'Alterar idioma'},
-  common:{studio:'Experiências digitais',viewWork:'Ver projetos',viewProject:'Ver projeto',live:'Projeto ao vivo',back:'Voltar',next:'Continuar',previous:'Voltar',edit:'Editar respostas',explore:'Explorar serviços',all:'Todos'},
+  common:{studio:'Experiências digitais',viewWork:'Ver projetos',viewProject:'Ver projeto',live:'Projeto ao vivo',caseStudies:'Estudos de caso',back:'Voltar',next:'Continuar',previous:'Voltar',edit:'Editar respostas',explore:'Explorar serviços',all:'Todos'},
   home:{hero:'Código com visão.|Design com impacto.',intro:'Desenvolvemos experiências digitais à medida para marcas que querem destacar-se.',tags:['Desenvolvimento web','UI / UX','Performance','SEO','Experiência digital'],manifesto:'Não criamos apenas websites.|Criamos experiências digitais.',manifestoCopy:'Acreditamos que um website deve comunicar, envolver e transformar a forma como uma marca é percebida. Unimos estratégia, design e desenvolvimento para criar experiências rápidas, memoráveis e feitas à medida.',servicesLabel:'O que construímos',work:'Projetos selecionados.',workCopy:'Projetos reais. Experiências construídas à medida.',difference:'Precisão por|design.',playground:'Isto não é|um template.',playCopy:'Explore. Cada interação tem uma intenção.',cta:'Pronto para criar|o que vem a seguir?',ctaCopy:'Vamos transformar a sua próxima ideia numa experiência digital.'},
   services:{hero:'Construímos|para a web.',intro:'Design, tecnologia e estratégia reunidos numa experiência digital construída para o seu negócio.',items:[['Desenvolvimento web à medida','Sites desenvolvidos à medida, sem depender de templates genéricos.'],['UI / UX design','Interfaces bonitas, intuitivas e fáceis de utilizar.'],['Performance & SEO','Experiências rápidas, tecnicamente sólidas e preparadas para pesquisa.'],['Manutenção & suporte','Continuamos presentes depois do lançamento.']]},
   process:{label:'Como construímos',title:'Da intenção|ao impacto.',items:[['Descobrir','Entendemos o negócio, público e objetivos.'],['Desenhar','Criamos a experiência visual e a estrutura.'],['Desenvolver','Transformamos o conceito em produto digital.'],['Lançar','Testamos, otimizamos e colocamos no ar.']]},
@@ -27,7 +27,7 @@ pt: {
 en: {
   seo:{title:'Kovelo Studio — Web Development & Digital Experiences',description:'Kovelo Studio creates custom websites and digital experiences through design, development, performance and technology.'},
   nav:{home:'Home',services:'Services',projects:'Projects',about:'About',contact:'Contact',start:'Start a project',menu:'Open menu',language:'Change language'},
-  common:{studio:'Digital experiences',viewWork:'View our work',viewProject:'View project',live:'Live project',back:'Back',next:'Continue',previous:'Back',edit:'Edit answers',explore:'Explore services',all:'All'},
+  common:{studio:'Digital experiences',viewWork:'View our work',viewProject:'View project',live:'Live project',caseStudies:'Case studies',back:'Back',next:'Continue',previous:'Back',edit:'Edit answers',explore:'Explore services',all:'All'},
   home:{hero:'Code with vision.|Design with impact.',intro:'We build custom digital experiences for brands that want to stand out.',tags:['Web development','UI / UX','Performance','SEO','Digital experience'],manifesto:"We don't just build websites.|We build digital experiences.",manifestoCopy:'A website should communicate, engage and reshape how a brand is perceived. We bring strategy, design and development together to build fast, memorable experiences with purpose.',servicesLabel:'What we build',work:'Selected work.',workCopy:'Real projects. Custom-built experiences.',difference:'Precise by|design.',playground:'This is not|a template.',playCopy:'Move through it. Every interaction has an intention.',cta:"Ready to build|what's next?",ctaCopy:"Let's turn your next idea into a digital experience."},
   services:{hero:'We build|for the web.',intro:'Design, technology and strategy brought together in a digital experience built around your business.',items:[['Custom web development','Websites made to measure, never dependent on generic templates.'],['UI / UX design','Interfaces that are striking, intuitive and easy to use.'],['Performance & SEO','Fast, technically sound experiences prepared for search.'],['Maintenance & support','We stay involved after launch to keep everything working well.']]},
   process:{label:'How we build',title:'From intent|to impact.',items:[['Discover','We understand the business, audience and objectives.'],['Design','We shape the visual experience and structure.'],['Build','We turn the concept into a digital product.'],['Launch','We test, optimise and put it live.']]},
@@ -41,3 +41,20 @@ en: {
 }}
 
 export const projectBase = sharedProjects
+
+export const caseStudies = {
+  pt: [
+    { niche:'Estética avançada', objective:'Transformar cuidado especializado numa presença serena, clara e credível.', challenge:'Era essencial apresentar tratamentos e autoridade sem perder a sensação humana do atendimento.', approach:'Criámos uma jornada editorial que organiza serviços, reforça confiança e conduz naturalmente ao contacto.' },
+    { niche:'Wellness & beauty', objective:'Dar ao bem-estar um espaço digital tão calmo quanto a experiência presencial.', challenge:'O desafio era tornar serviços e momentos de autocuidado fáceis de descobrir, sem tornar a marca fria.', approach:'A direção combinou ritmo suave, narrativa visual e caminhos simples para explorar e marcar.' },
+    { niche:'Entretenimento', objective:'Fazer a energia da arena ser sentida antes mesmo da primeira reserva.', challenge:'A proposta precisava ser compreendida em segundos e transformar curiosidade em vontade de participar.', approach:'Usámos contraste, ritmo e informação direta para levar a experiência da tela à ação.' },
+    { niche:'Hotelaria', objective:'Apresentar o hotel como ponto de partida para descobrir Santarém.', challenge:'Era importante unir atmosfera, localização e decisões práticas num só percurso digital.', approach:'Criámos uma experiência acolhedora, com hierarquia clara e uma descoberta visual guiada.' },
+    { niche:'Hospitality & heritage', objective:'Traduzir a memória e a presença da Casa da Alcáçova para o digital.', challenge:'O espaço precisava manter a sua identidade histórica sem parecer distante ou estático.', approach:'A narrativa editorial aproxima património, estadia e território numa experiência contemporânea.' }
+  ],
+  en: [
+    { niche:'Advanced aesthetics', objective:'Turn specialist care into a calm, clear and credible digital presence.', challenge:'The experience needed to present treatments and authority without losing the human side of care.', approach:'We shaped an editorial journey that organises services, builds confidence and leads naturally to contact.' },
+    { niche:'Wellness & beauty', objective:'Give wellbeing a digital space as calm as the in-person experience.', challenge:'Services and self-care moments had to be easy to discover without making the brand feel cold.', approach:'The direction combines a gentle rhythm, visual storytelling and simple paths to explore and book.' },
+    { niche:'Entertainment', objective:'Make the arena energy felt before a visitor makes a reservation.', challenge:'The proposition needed to be understood in seconds and turn curiosity into participation.', approach:'Contrast, rhythm and direct information move the experience from screen to action.' },
+    { niche:'Hospitality', objective:'Present the hotel as a starting point for discovering Santarém.', challenge:'Atmosphere, location and practical decisions needed to work together in a single digital journey.', approach:'We created a welcoming experience with clear hierarchy and guided visual discovery.' },
+    { niche:'Hospitality & heritage', objective:'Translate Casa da Alcáçova’s history and presence into a digital experience.', challenge:'The space needed to preserve its historic identity without feeling distant or static.', approach:'Editorial storytelling brings heritage, stay and place together in a contemporary experience.' }
+  ]
+}

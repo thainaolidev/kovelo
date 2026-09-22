@@ -5,8 +5,10 @@
   <url><loc>https://YOUR_PRODUCTION_DOMAIN/servicos</loc></url>
   <url><loc>https://YOUR_PRODUCTION_DOMAIN/projetos</loc></url>
   <url><loc>https://YOUR_PRODUCTION_DOMAIN/contacto</loc></url>
+  <url><loc>https://YOUR_PRODUCTION_DOMAIN/sobre</loc></url>
   <url><loc>https://YOUR_PRODUCTION_DOMAIN/en</loc></url>
   <url><loc>https://YOUR_PRODUCTION_DOMAIN/en/services</loc></url>
   <url><loc>https://YOUR_PRODUCTION_DOMAIN/en/projects</loc></url>
   <url><loc>https://YOUR_PRODUCTION_DOMAIN/en/contact</loc></url>
+  <url><loc>https://YOUR_PRODUCTION_DOMAIN/en/about</loc></url>
 </urlset>

@@ -2,6 +2,8 @@
   "name": "kovelo-studio",
   "private": true,
   "version": "1.0.0",
+  "description": "Kovelo Studio — Custom web development and digital experiences.",
+  "engines": { "node": ">=20" },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,13 +11,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "typescript": "latest",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest"
   }

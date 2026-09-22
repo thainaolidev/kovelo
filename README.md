@@ -57,6 +57,8 @@ Set the same public variables in Vercel for Preview and Production as needed. A 
 
 The project is configured for Vercel. Connect the repository, use `npm run build` as the build command, and `dist` as the output directory. `vercel.json` rewrites requests to the SPA entry point so direct visits to localised routes work.
 
+For a public GitHub repository, publish only the tracked source files. `.gitignore` intentionally excludes `node_modules`, `dist`, local environment files, Vercel project state and generated output archives. Dependabot configuration is included in `.github/dependabot.yml`.
+
 Before connecting a custom domain, set `VITE_SITE_URL` and update the sitemap URLs in `public/sitemap.xml` to that final domain.
 
 ## License
